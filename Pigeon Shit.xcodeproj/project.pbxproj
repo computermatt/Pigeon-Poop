@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C974DF30190C7EF200889B6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C974DF2F190C7EF200889B6E /* Foundation.framework */; };
+		C974DF32190C7EF200889B6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C974DF31190C7EF200889B6E /* CoreGraphics.framework */; };
+		C974DF34190C7EF200889B6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C974DF33190C7EF200889B6E /* UIKit.framework */; };
+		C974DF36190C7EF200889B6E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C974DF35190C7EF200889B6E /* SpriteKit.framework */; };
+		C974DF3C190C7EF200889B6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C974DF3A190C7EF200889B6E /* InfoPlist.strings */; };
+		C974DF3E190C7EF200889B6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C974DF3D190C7EF200889B6E /* main.m */; };
+		C974DF42190C7EF200889B6E /* MSPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C974DF41190C7EF200889B6E /* MSPAppDelegate.m */; };
+		C974DF45190C7EF200889B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C974DF43190C7EF200889B6E /* Main.storyboard */; };
+		C974DF48190C7EF200889B6E /* MSPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C974DF47190C7EF200889B6E /* MSPViewController.m */; };
+		C974DF4B190C7EF200889B6E /* MSPMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C974DF4A190C7EF200889B6E /* MSPMyScene.m */; };
+		C974DF4D190C7EF200889B6E /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C974DF4C190C7EF200889B6E /* Spaceship.png */; };
+		C974DF4F190C7EF300889B6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C974DF4E190C7EF300889B6E /* Images.xcassets */; };
+		C974DF56190C7EF300889B6E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C974DF55190C7EF300889B6E /* XCTest.framework */; };
+		C974DF57190C7EF300889B6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C974DF2F190C7EF200889B6E /* Foundation.framework */; };
+		C974DF58190C7EF300889B6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C974DF33190C7EF200889B6E /* UIKit.framework */; };
+		C974DF60190C7EF300889B6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C974DF5E190C7EF300889B6E /* InfoPlist.strings */; };
+		C974DF62190C7EF300889B6E /* Pigeon_ShitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C974DF61190C7EF300889B6E /* Pigeon_ShitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C974DF59190C7EF300889B6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C974DF24190C7EF200889B6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C974DF2B190C7EF200889B6E;
+			remoteInfo = "Pigeon Shit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C974DF2C190C7EF200889B6E /* Pigeon Shit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pigeon Shit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C974DF2F190C7EF200889B6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C974DF31190C7EF200889B6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C974DF33190C7EF200889B6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C974DF35190C7EF200889B6E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		C974DF39190C7EF200889B6E /* Pigeon Shit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pigeon Shit-Info.plist"; sourceTree = "<group>"; };
+		C974DF3B190C7EF200889B6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C974DF3D190C7EF200889B6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C974DF3F190C7EF200889B6E /* Pigeon Shit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pigeon Shit-Prefix.pch"; sourceTree = "<group>"; };
+		C974DF40190C7EF200889B6E /* MSPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPAppDelegate.h; sourceTree = "<group>"; };
+		C974DF41190C7EF200889B6E /* MSPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPAppDelegate.m; sourceTree = "<group>"; };
+		C974DF44190C7EF200889B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C974DF46190C7EF200889B6E /* MSPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPViewController.h; sourceTree = "<group>"; };
+		C974DF47190C7EF200889B6E /* MSPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPViewController.m; sourceTree = "<group>"; };
+		C974DF49190C7EF200889B6E /* MSPMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSPMyScene.h; sourceTree = "<group>"; };
+		C974DF4A190C7EF200889B6E /* MSPMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSPMyScene.m; sourceTree = "<group>"; };
+		C974DF4C190C7EF200889B6E /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		C974DF4E190C7EF300889B6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C974DF54190C7EF300889B6E /* Pigeon ShitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pigeon ShitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C974DF55190C7EF300889B6E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C974DF5D190C7EF300889B6E /* Pigeon ShitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pigeon ShitTests-Info.plist"; sourceTree = "<group>"; };
+		C974DF5F190C7EF300889B6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C974DF61190C7EF300889B6E /* Pigeon_ShitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pigeon_ShitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C974DF29190C7EF200889B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C974DF32190C7EF200889B6E /* CoreGraphics.framework in Frameworks */,
+				C974DF34190C7EF200889B6E /* UIKit.framework in Frameworks */,
+				C974DF36190C7EF200889B6E /* SpriteKit.framework in Frameworks */,
+				C974DF30190C7EF200889B6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C974DF51190C7EF300889B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C974DF56190C7EF300889B6E /* XCTest.framework in Frameworks */,
+				C974DF58190C7EF300889B6E /* UIKit.framework in Frameworks */,
+				C974DF57190C7EF300889B6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C974DF23190C7EF200889B6E = {
+			isa = PBXGroup;
+			children = (
+				C974DF37190C7EF200889B6E /* Pigeon Shit */,
+				C974DF5B190C7EF300889B6E /* Pigeon ShitTests */,
+				C974DF2E190C7EF200889B6E /* Frameworks */,
+				C974DF2D190C7EF200889B6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C974DF2D190C7EF200889B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C974DF2C190C7EF200889B6E /* Pigeon Shit.app */,
+				C974DF54190C7EF300889B6E /* Pigeon ShitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C974DF2E190C7EF200889B6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C974DF2F190C7EF200889B6E /* Foundation.framework */,
+				C974DF31190C7EF200889B6E /* CoreGraphics.framework */,
+				C974DF33190C7EF200889B6E /* UIKit.framework */,
+				C974DF35190C7EF200889B6E /* SpriteKit.framework */,
+				C974DF55190C7EF300889B6E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C974DF37190C7EF200889B6E /* Pigeon Shit */ = {
+			isa = PBXGroup;
+			children = (
+				C974DF40190C7EF200889B6E /* MSPAppDelegate.h */,
+				C974DF41190C7EF200889B6E /* MSPAppDelegate.m */,
+				C974DF43190C7EF200889B6E /* Main.storyboard */,
+				C974DF46190C7EF200889B6E /* MSPViewController.h */,
+				C974DF47190C7EF200889B6E /* MSPViewController.m */,
+				C974DF49190C7EF200889B6E /* MSPMyScene.h */,
+				C974DF4A190C7EF200889B6E /* MSPMyScene.m */,
+				C974DF4C190C7EF200889B6E /* Spaceship.png */,
+				C974DF4E190C7EF300889B6E /* Images.xcassets */,
+				C974DF38190C7EF200889B6E /* Supporting Files */,
+			);
+			path = "Pigeon Shit";
+			sourceTree = "<group>";
+		};
+		C974DF38190C7EF200889B6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C974DF39190C7EF200889B6E /* Pigeon Shit-Info.plist */,
+				C974DF3A190C7EF200889B6E /* InfoPlist.strings */,
+				C974DF3D190C7EF200889B6E /* main.m */,
+				C974DF3F190C7EF200889B6E /* Pigeon Shit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C974DF5B190C7EF300889B6E /* Pigeon ShitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C974DF61190C7EF300889B6E /* Pigeon_ShitTests.m */,
+				C974DF5C190C7EF300889B6E /* Supporting Files */,
+			);
+			path = "Pigeon ShitTests";
+			sourceTree = "<group>";
+		};
+		C974DF5C190C7EF300889B6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C974DF5D190C7EF300889B6E /* Pigeon ShitTests-Info.plist */,
+				C974DF5E190C7EF300889B6E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C974DF2B190C7EF200889B6E /* Pigeon Shit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C974DF65190C7EF300889B6E /* Build configuration list for PBXNativeTarget "Pigeon Shit" */;
+			buildPhases = (
+				C974DF28190C7EF200889B6E /* Sources */,
+				C974DF29190C7EF200889B6E /* Frameworks */,
+				C974DF2A190C7EF200889B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pigeon Shit";
+			productName = "Pigeon Shit";
+			productReference = C974DF2C190C7EF200889B6E /* Pigeon Shit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C974DF53190C7EF300889B6E /* Pigeon ShitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C974DF68190C7EF300889B6E /* Build configuration list for PBXNativeTarget "Pigeon ShitTests" */;
+			buildPhases = (
+				C974DF50190C7EF300889B6E /* Sources */,
+				C974DF51190C7EF300889B6E /* Frameworks */,
+				C974DF52190C7EF300889B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C974DF5A190C7EF300889B6E /* PBXTargetDependency */,
+			);
+			name = "Pigeon ShitTests";
+			productName = "Pigeon ShitTests";
+			productReference = C974DF54190C7EF300889B6E /* Pigeon ShitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C974DF24190C7EF200889B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MSP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MSquaredProductions;
+				TargetAttributes = {
+					C974DF53190C7EF300889B6E = {
+						TestTargetID = C974DF2B190C7EF200889B6E;
+					};
+				};
+			};
+			buildConfigurationList = C974DF27190C7EF200889B6E /* Build configuration list for PBXProject "Pigeon Shit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C974DF23190C7EF200889B6E;
+			productRefGroup = C974DF2D190C7EF200889B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C974DF2B190C7EF200889B6E /* Pigeon Shit */,
+				C974DF53190C7EF300889B6E /* Pigeon ShitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C974DF2A190C7EF200889B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C974DF3C190C7EF200889B6E /* InfoPlist.strings in Resources */,
+				C974DF4F190C7EF300889B6E /* Images.xcassets in Resources */,
+				C974DF4D190C7EF200889B6E /* Spaceship.png in Resources */,
+				C974DF45190C7EF200889B6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C974DF52190C7EF300889B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C974DF60190C7EF300889B6E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C974DF28190C7EF200889B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C974DF3E190C7EF200889B6E /* main.m in Sources */,
+				C974DF48190C7EF200889B6E /* MSPViewController.m in Sources */,
+				C974DF42190C7EF200889B6E /* MSPAppDelegate.m in Sources */,
+				C974DF4B190C7EF200889B6E /* MSPMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C974DF50190C7EF300889B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C974DF62190C7EF300889B6E /* Pigeon_ShitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C974DF5A190C7EF300889B6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C974DF2B190C7EF200889B6E /* Pigeon Shit */;
+			targetProxy = C974DF59190C7EF300889B6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C974DF3A190C7EF200889B6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C974DF3B190C7EF200889B6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C974DF43190C7EF200889B6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C974DF44190C7EF200889B6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C974DF5E190C7EF300889B6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C974DF5F190C7EF300889B6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C974DF63190C7EF300889B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C974DF64190C7EF300889B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C974DF66190C7EF300889B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pigeon Shit/Pigeon Shit-Prefix.pch";
+				INFOPLIST_FILE = "Pigeon Shit/Pigeon Shit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C974DF67190C7EF300889B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pigeon Shit/Pigeon Shit-Prefix.pch";
+				INFOPLIST_FILE = "Pigeon Shit/Pigeon Shit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C974DF69190C7EF300889B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pigeon Shit.app/Pigeon Shit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pigeon Shit/Pigeon Shit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pigeon ShitTests/Pigeon ShitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C974DF6A190C7EF300889B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pigeon Shit.app/Pigeon Shit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pigeon Shit/Pigeon Shit-Prefix.pch";
+				INFOPLIST_FILE = "Pigeon ShitTests/Pigeon ShitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C974DF27190C7EF200889B6E /* Build configuration list for PBXProject "Pigeon Shit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C974DF63190C7EF300889B6E /* Debug */,
+				C974DF64190C7EF300889B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C974DF65190C7EF300889B6E /* Build configuration list for PBXNativeTarget "Pigeon Shit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C974DF66190C7EF300889B6E /* Debug */,
+				C974DF67190C7EF300889B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C974DF68190C7EF300889B6E /* Build configuration list for PBXNativeTarget "Pigeon ShitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C974DF69190C7EF300889B6E /* Debug */,
+				C974DF6A190C7EF300889B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C974DF24190C7EF200889B6E /* Project object */;
+}
