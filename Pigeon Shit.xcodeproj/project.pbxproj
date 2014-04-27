@@ -24,6 +24,8 @@
 		C974DF58190C7EF300889B6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C974DF33190C7EF200889B6E /* UIKit.framework */; };
 		C974DF60190C7EF300889B6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C974DF5E190C7EF300889B6E /* InfoPlist.strings */; };
 		C974DF62190C7EF300889B6E /* Pigeon_ShitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C974DF61190C7EF300889B6E /* Pigeon_ShitTests.m */; };
+		C974DF6C190C7F2600889B6E /* pigeon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C974DF6B190C7F2600889B6E /* pigeon.jpg */; };
+		C974DF6E190C7F6200889B6E /* lambo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C974DF6D190C7F6200889B6E /* lambo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		C974DF5D190C7EF300889B6E /* Pigeon ShitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pigeon ShitTests-Info.plist"; sourceTree = "<group>"; };
 		C974DF5F190C7EF300889B6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C974DF61190C7EF300889B6E /* Pigeon_ShitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pigeon_ShitTests.m; sourceTree = "<group>"; };
+		C974DF6B190C7F2600889B6E /* pigeon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pigeon.jpg; sourceTree = "<group>"; };
+		C974DF6D190C7F6200889B6E /* lambo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lambo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,8 @@
 				C974DF4A190C7EF200889B6E /* MSPMyScene.m */,
 				C974DF4C190C7EF200889B6E /* Spaceship.png */,
 				C974DF4E190C7EF300889B6E /* Images.xcassets */,
+				C974DF6B190C7F2600889B6E /* pigeon.jpg */,
+				C974DF6D190C7F6200889B6E /* lambo.jpg */,
 				C974DF38190C7EF200889B6E /* Supporting Files */,
 			);
 			path = "Pigeon Shit";
@@ -243,6 +249,8 @@
 			files = (
 				C974DF3C190C7EF200889B6E /* InfoPlist.strings in Resources */,
 				C974DF4F190C7EF300889B6E /* Images.xcassets in Resources */,
+				C974DF6E190C7F6200889B6E /* lambo.jpg in Resources */,
+				C974DF6C190C7F2600889B6E /* pigeon.jpg in Resources */,
 				C974DF4D190C7EF200889B6E /* Spaceship.png in Resources */,
 				C974DF45190C7EF200889B6E /* Main.storyboard in Resources */,
 			);

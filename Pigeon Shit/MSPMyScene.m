@@ -14,16 +14,19 @@
     if (self = [super initWithSize:size]) {
         /* Setup your scene here */
         
-        self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
+        self.backgroundColor = [SKColor colorWithWhite:1.0f alpha:1.0f];
+        SKSpriteNode *pidgeon = [SKSpriteNode spriteNodeWithImageNamed:@"pigeon.jpg"];
+        pidgeon.size = CGSizeMake(50, 50);
+        pidgeon.position = CGPointMake(50, 300);
         
-        SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
+        [self addChild:pidgeon];
         
-        myLabel.text = @"Hello, World!";
-        myLabel.fontSize = 30;
-        myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-                                       CGRectGetMidY(self.frame));
+        SKSpriteNode *car = [SKSpriteNode spriteNodeWithImageNamed:@"lambo.jpg"];
+        car.xScale = -1;
+        car.size = CGSizeMake(150, 50);
+        car.position = CGPointMake(350, 160);
         
-        [self addChild:myLabel];
+        [self addChild:car];
     }
     return self;
 }
